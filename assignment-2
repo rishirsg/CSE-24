@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Solar System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #001f3f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .container {
+            margin-top: 30px;
+        }
+        article {
+            background-color: #ffffff;
+            padding: 20px;
+            border-left: 5px solid #0074D9;
+            border-radius: 5px;
+        }
+        .highlight {
+            color: #FF4136;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Semantic Element -->
+    <header>
+        <h1>Exploring the Solar System</h1>
+        <p>Discover the wonders of our cosmic neighborhood</p>
+    </header>
+
+    <!-- Non-Semantic Element -->
+    <div class="container">
+
+        <!-- Semantic Element -->
+        <article>
+            <h2>What is the Solar System?</h2>
+            <p>
+                The <span class="highlight">Solar System</span> consists of the Sun and everything bound to it by gravity — 
+                including eight planets, their moons, dwarf planets, asteroids, comets, and more.
+            </p>
+
+            <h3>Planets of the Solar System</h3>
+            <ul>
+                <li>Mercury</li>
+                <li>Venus</li>
+                <li>Earth</li>
+                <li>Mars</li>
+                <li>Jupiter</li>
+                <li>Saturn</li>
+                <li>Uranus</li>
+                <li>Neptune</li>
+            </ul>
+
+            <p>
+                Among them, <span class="highlight">Jupiter</span> is the largest, while <span class="highlight">Mercury</span> is the smallest.
+            </p>
+        </article>
+
+    </div>
+
+</body>
+</html>
